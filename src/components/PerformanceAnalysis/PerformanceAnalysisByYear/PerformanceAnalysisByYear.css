@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee&display=swap');
+
+
+.run-scored-container{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% 0));
+    width: 80%;
+    background: #dc8;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.run-scored-heading{
+    font-size: 22px;
+    font-family: 'Bungee';
+    text-align: center;
+    padding: 15px;
+}
+
+.bar-container{
+    height: auto;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+@media (max-width:651px){
+    
+    .run-scored-heading{
+        font-size: 16px;
+    }
+
+    .bar-container{
+        height: 100%;
+        width: 100%;    
+    }
+}
+
+
+@media (max-width:850px){
+    .run-scored-container{
+        width: 100%;
+    }
+}    
+
