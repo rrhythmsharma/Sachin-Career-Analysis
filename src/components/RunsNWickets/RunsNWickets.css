@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee&display=swap');
+
+.graph-container{
+    margin-top: 150px;
+}
+
+.graph-heading{
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3em;
+    white-space: nowrap;
+    z-index: 1000;
+    font-family: 'Bangers', cursive;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+    -moz-transform: skew(0, -6.7deg);
+    -ms-transform: skew(0, -6.7deg);
+    -webkit-transform: skew(0, -6.7deg);
+    transform: skew(0, -6.7deg);
+    -moz-transition-property: font-size;
+    -o-transition-property: font-size;
+    -webkit-transition-property: font-size;
+    transition-property: font-size;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% 0));
+    width: 260px;
+    background: #dc8;
+}
+
+.graph{
+    background-color: #dc8;
+    margin: 2em;
+}
+
+.drop-down-select-option{
+    margin: 15px;
+}
+
+.graph-drop-down-container{
+    font-family: 'Bungee', cursive;
+    background: #dc8;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% 0));
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 100%;
+}
+
+.drop-down-span{
+    font-size: 18px;
+    font-family: 'Bungee', cursive;
+    padding: 10px;
+}
+
+.total-label{
+    font-size: 18px;
+    font-family: 'Bungee', cursive;
+    background: #dc8;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+@media (max-width: 450px) {
+
+    .graph-drop-down-container{
+        width: 350px;
+    }
+    
+}
+
+@media (max-width: 400px) {
+
+    .graph-drop-down-container{
+        width: 95%;
+    }
+
+}
+
+@media (max-width: 500px) {
+  
+    .graph{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .graph-drop-down-container{
+        padding: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+
+
+    .graph{
+        overflow: auto;
+    }
+
+    .graph-child{
+        min-width: 600px;
+    }
+
+}
