@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header/Header'
 import RunsNWickets from '../../components/RunsNWickets/RunsNWickets'
-import DataAnalysis from '../../components/DataAnalysis/DataAnalysis'
+import PerformanceAnalysis from '../../components/PerformanceAnalysis/PerformanceAnalysis'
 import FunFacts from '../../components/FunFacts/FunFacts'
 import Comparison from '../../components/Comparison/Comparison'
 import Conclusion from '../../components/Conclusion/Conclusion'
@@ -21,8 +21,8 @@ const SachinWebsite = () => {
                 WHICH SKILL OF SACHIN USER WANT TO SEE THE GRAPH, FOR EX. --> RUNS, WICKES TAKEN,  
             */}
             
-            <DataAnalysis />
-            {/* SHOW THE DATA IN CENTER OF CIRCLE
+            <PerformanceAnalysis />
+            {/* SHOW THE DATA USING BAR GRAPH
                 IT WILL BE DIRECT DATA
             */}
 
