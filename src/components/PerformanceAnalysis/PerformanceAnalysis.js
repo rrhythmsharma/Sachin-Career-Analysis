@@ -1,8 +1,8 @@
 import React from 'react'
 import PerformanceAnalysisByYear from './PerformanceAnalysisByYear/PerformanceAnalysisByYear'
-import './DataAnalysis.css'
+import './PerformanceAnalysis.css'
 
-const Data = () => {
+const Performance = () => {
     return(
         <div className="data-analysis-container">
             <h3 className="sachin-analysis">Sachin's Career Analysis</h3>
@@ -11,4 +11,4 @@ const Data = () => {
     )
 }
 
-export default Data;
+export default Performance;
