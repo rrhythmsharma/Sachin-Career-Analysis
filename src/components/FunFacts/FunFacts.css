@@ -166,10 +166,6 @@ ul.list-group li.list-group-item div.avatar img {
 	from {transform: rotate(-45deg);}
 	to { transform: rotate(315deg);}
 }
-@moz-keyframes rota {
-	from {transform: rotate(-45deg);}
-	to { transform: rotate(315deg);}
-}
 @-webkit-keyframes rota {
 	from {transform: rotate(-45deg);}
 	to { transform: rotate(315deg);}
