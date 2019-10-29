@@ -1,5 +1,5 @@
 .data-analysis-container{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .sachin-analysis{
@@ -7,11 +7,11 @@
     font-weight: normal;
     color: #fff;
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 3em;
     white-space: nowrap;
     z-index: 1000;
     font-family: 'Bangers', cursive;
-    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.7);
     -moz-transform: skew(0, -6.7deg);
     -ms-transform: skew(0, -6.7deg);
     -webkit-transform: skew(0, -6.7deg);
@@ -27,10 +27,10 @@
     /* clip-path: polygon(0 0, 100%, 0, 100% 100%, 0 calc(100%, 0)); */
     -webkit-clip-path: polygon(0 0, 100% 11%, 100% 89%, 0% 100%);
     clip-path: polygon(0 0, 100% 11%, 100% 89%, 0% 100%);
-    width: 400px;
+    width: 200px;
     background: #dc8;
 }
-
+/* 
 @media (max-width:500px) {
     .sachin-analysis{
         font-size: 2em;
@@ -45,4 +45,4 @@
         width: 230px;
         text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.7);
     }
-}
+} */

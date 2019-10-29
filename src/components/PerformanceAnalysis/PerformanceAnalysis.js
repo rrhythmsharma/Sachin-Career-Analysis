@@ -5,7 +5,7 @@ import './PerformanceAnalysis.css'
 const Performance = () => {
     return(
         <div className="data-analysis-container">
-            <h3 className="sachin-analysis">Sachin's Career Analysis</h3>
+            <h3 className="sachin-analysis">Analysis</h3>
             <PerformanceAnalysisByYear />
         </div>
     )
