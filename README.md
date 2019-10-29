@@ -1,3 +1,10 @@
+# Sachin Career Analysis using reactjs
+
+## live link: https://hopeful-jepsen-74e417.netlify.com/
+
+## Discription
+#### The Frontend part of the project is implemented using `reactjs`. This is a single page application that shows Sachin's Career stats with a different interface to the user. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
