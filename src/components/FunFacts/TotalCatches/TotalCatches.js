@@ -16,8 +16,6 @@ const TotalCatches = () => {
             return (catches)
         })
 
-        console.log(Catches)
-
         let sum = Catches.reduce((a, b) => a + b, 0)
         return sum
     }

@@ -30,8 +30,6 @@ const FunFacts = () => {
             return (run)
         })
         
-        console.log(notOut)
-
         let sum = Runs.reduce((a, b) => a + b, 0)
 
         return ([sum, notOut, totalMatches]);
