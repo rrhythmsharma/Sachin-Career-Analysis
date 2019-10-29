@@ -30,7 +30,7 @@ const TotalHundredNFifty = () => {
 
     return (
         <div className="fact-container-1">
-            <h3 className="fact-heading">Total Hundreds</h3>
+            <h3 className="fact-heading">Total Hundreds by Sachin</h3>
             <div className="wrapper">
                 <div className="right"></div>
                 <div className="left"></div>
@@ -39,7 +39,7 @@ const TotalHundredNFifty = () => {
                     </div>
                 <div className="popover"></div>
             </div>
-            <h3 className="fact-heading">Total Fifty</h3>
+            <h3 className="fact-heading">Total Fifty by Sachin</h3>
             <div className="wrapper">
                 <div className="right"></div>
                 <div className="left"></div>

@@ -33,7 +33,7 @@ const TotalCatches = () => {
                     </div>
             </div>
         </div>
-)
+    )
 }
 
 export default TotalCatches;

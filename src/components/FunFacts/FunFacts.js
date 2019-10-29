@@ -68,7 +68,6 @@ const FunFacts = () => {
         }
     }
 
-
     return(
         <div className="fun-facts-container">
             <h3 className="fun-facts-heading">Fun Facts</h3>
