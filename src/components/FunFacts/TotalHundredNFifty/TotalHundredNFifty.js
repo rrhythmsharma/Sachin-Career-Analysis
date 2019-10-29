@@ -46,7 +46,6 @@ const TotalHundredNFifty = () => {
                     <div className="middle">
                         <p>{fiftyCounter}</p>
                     </div>
-                <div className="popover"></div>
             </div>
         </div>
     )

@@ -33,7 +33,6 @@ const TotalWons = () => {
                     <div className="middle">
                         <p>{wons}</p>
                     </div>
-                <div className="popover"></div>
             </div>
         </div>
     )
