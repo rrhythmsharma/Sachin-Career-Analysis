@@ -48,3 +48,9 @@
 .true{
     font-weight: bolder;
 }
+
+@media (max-width:450px){
+    .wikipedia-says-container{
+        margin: 1em;
+    }   
+}
