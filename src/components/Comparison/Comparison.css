@@ -69,6 +69,16 @@
     margin: 15px;
 }
 
+.note{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Bungee', cursive;
+}
+
+.note-link{
+    color: white;
+}
+
 .table-heading, td {
     text-align: center;
     padding: 16px;

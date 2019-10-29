@@ -57,23 +57,23 @@ class Comparison extends Component {
                 </div>
 
                 <table className="comparison-table">
-                            <tbody>
-                                <tr className="table-first-row">
-                                    <th className="table-heading">Sachin</th>
-                                    <th className="table-heading">vs</th>
-                                    <th className="table-heading">{competitor}</th>
-                                </tr>
-                                <TableRow sachinData={sachinArray.Span} competitorData={currentCompetitorArray.Span} Label={"Span"} />
-                                <TableRow sachinData={sachinArray.Innings} competitorData={currentCompetitorArray.Innings} Label={"Innings"} />
-                                <TableRow sachinData={sachinArray.Runs} competitorData={currentCompetitorArray.Runs} Label={"Runs"} />
-                                <TableRow sachinData={sachinArray.HighestScore} competitorData={currentCompetitorArray.HighestScore} Label={"H-S"} />
-                                <TableRow sachinData={sachinArray.Average} competitorData={currentCompetitorArray.Average} Label={"Average"} />
-                                <TableRow sachinData={sachinArray.StrikeRate} competitorData={currentCompetitorArray.StrikeRate} Label={"S-R"} />
-                                <TableRow sachinData={sachinArray.Hundreds} competitorData={currentCompetitorArray.Hundreds} Label={"100's"} />
-                                <TableRow sachinData={sachinArray.Fifties} competitorData={currentCompetitorArray.Fifties} Label={"50's"} lastLine ={"last-line"}  />
-                            </tbody>
-        
+                    <tbody>
+                        <tr className="table-first-row">
+                            <th className="table-heading">Sachin</th>
+                            <th className="table-heading">vs</th>
+                            <th className="table-heading">{competitor}</th>
+                        </tr>
+                        <TableRow sachinData={sachinArray.Span} competitorData={currentCompetitorArray.Span} Label={"Span"} />
+                        <TableRow sachinData={sachinArray.Innings} competitorData={currentCompetitorArray.Innings} Label={"Innings"} />
+                        <TableRow sachinData={sachinArray.Runs} competitorData={currentCompetitorArray.Runs} Label={"Runs"} />
+                        <TableRow sachinData={sachinArray.HighestScore} competitorData={currentCompetitorArray.HighestScore} Label={"H-S"} />
+                        <TableRow sachinData={sachinArray.Average} competitorData={currentCompetitorArray.Average} Label={"Average"} />
+                        <TableRow sachinData={sachinArray.StrikeRate} competitorData={currentCompetitorArray.StrikeRate} Label={"S-R"} />
+                        <TableRow sachinData={sachinArray.Hundreds} competitorData={currentCompetitorArray.Hundreds} Label={"100's"} />
+                        <TableRow sachinData={sachinArray.Fifties} competitorData={currentCompetitorArray.Fifties} Label={"50's"} lastLine ={"last-line"}  />
+                    </tbody>
                 </table>
+                <p className="note"><i>* Note the above comparision data is taken form <a className="note-link" href="https://github.com/obedjunias/Cricket-Statistics" target="__blank">here</a> </i></p>
             </div>
         )
     }
