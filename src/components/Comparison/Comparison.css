@@ -71,8 +71,9 @@
 
 .note{
     text-align: center;
-    font-size: 16px;
+    font-size: 0.9em;
     font-family: 'Bungee', cursive;
+    padding-top: 20px;
 }
 
 .note-link{
