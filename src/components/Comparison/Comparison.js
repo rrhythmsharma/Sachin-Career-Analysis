@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import TableRow from './TableRow/TableRow';
-import rawData from  '../../assets/all-time-top-100-batsman.json';
+import rawData from  '../../assets/all-time-top-hundred-batsman.json';
 import './Comparison.css'
 
 class Comparison extends Component {

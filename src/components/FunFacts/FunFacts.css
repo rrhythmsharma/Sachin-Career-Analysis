@@ -24,7 +24,9 @@
     -o-transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% 0));
+    /* clip-path: polygon(0 0, 100%, 0, 100% 100%, 0 calc(100%, 0)); */
+    -webkit-clip-path: polygon(0 0, 100% 11%, 100% 89%, 0% 100%);
+    clip-path: polygon(0 0, 100% 11%, 100% 89%, 0% 100%);
     width: 230px;
     background: #dc8;
 }
@@ -52,11 +54,17 @@ ul.list-group li.list-group-item {
     padding: 1rem 1.3rem;
     margin-bottom: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
     list-style: none;
     transition: all 200ms ease-out;
     background: #dc8;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    -webkit-clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 93%);
+    clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 93%);
+}
+
+ul.list-group li.list-group-item:nth-child(even){   
+    -webkit-clip-path: polygon(0 0, 100% 7%, 100% 93%, 0 100%);
+    clip-path: polygon(0 0, 100% 7%, 100% 93%, 0 100%);
 }
 
 ul.list-group li.list-group-item div.avatar {

@@ -24,7 +24,9 @@
     -o-transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% 0));
+    /* clip-path: polygon(0 0, 100%, 0, 100% 100%, 0 calc(100%, 0)); */
+    -webkit-clip-path: polygon(0 0, 100% 11%, 100% 89%, 0% 100%);
+    clip-path: polygon(0 0, 100% 11%, 100% 89%, 0% 100%);
     width: 400px;
     background: #dc8;
 }
